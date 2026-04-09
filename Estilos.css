@@ -4,19 +4,21 @@
 * {
     font-family: "Lora", serif;
     font-optical-sizing: auto;
-    font-weight: normal;
+    font-weight: 400;
     font-style: normal;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
 }
 
 body {
     background-color: #fdfad4;
-    margin: 0;
-    padding: 0;
 }
 
 h1 {
     font-family: "Orbitron", sans-serif;
-    font-size: 3rem;
+    font-weight: bold;
+    font-size: 4rem;
     color: #929fff;
     text-align: center;
 }
@@ -37,20 +39,61 @@ p {
     text-align: center;
 }
 
-a {
-    text-decoration: blink;
-}
 
 #inicio {
-    background-image: url(img/img-perfil.png) width="120" height="120";
     background-repeat: no-repeat;
-
-
-
+    background-size: cover;
 }
 
 #perfil {
     background-image: url(img/img-fondo-pagina.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-position: center;
+    min-height: 40vh;
+    padding: 10px;
+    margin: 45px 0;
+    border-top-width: 11px;
+    border-bottom-width: 11px;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-color: #e7a6d4;
+    border-style: double;
+}
+
+#perfil p {
+    color: #000000;
+    padding: 20px;
+    border-radius: 10px;
+    line-height: 1.5rem;
+}
+
+footer {
+    background-color: #e7a6d4;
+    padding: 10px;
+}
+
+#redes {
+    font-family: "Orbitron", sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border: #929fff solid 1px;
+}
+
+#redes img {
+    margin: 10px;
+    margin-left: 10px;
+}
+
+#redes a {
+    
+    padding-right: 10px;
+}
+
+ul li {
+    list-style-type: none;
+    text-decoration: none;
+    color: #000000;
+    margin-top: 10px;
 }

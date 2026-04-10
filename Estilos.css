@@ -23,15 +23,19 @@ h1 {
     text-align: center;
 }
 
-h2,
-h3,
-h4,
-h5,
-h6 {
+h2 {
     font-family: "Orbitron", sans-serif;
     font-size: 1.5rem;
     color: #ee8732;
     line-height: 2rem;
+}
+
+h3 {
+    font-family: "Orbitron", sans-serif;
+    font-size: 1.2rem;
+    color: #ee8732;
+    line-height: 1.5rem;
+    text-align: center;
 }
 
 p {
@@ -66,34 +70,24 @@ p {
     line-height: 1.5rem;
 }
 
-footer {
-    background-color: #e7a6d4;
-    padding: 10px;
-}
-
-#redes {
+    
+nav {
     font-family: "Orbitron", sans-serif;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+footer {
+    background-color: #e7a6d4;
+    padding: 20px;
+}
+
+#section {
+    display: flex;
     flex-wrap: wrap;
-    border: #929fff solid 1px;
+    justify-content: space-around;
+    text-align: center;
+    padding: 30px;
 }
 
-#redes img {
-    margin: 10px;
-    margin-left: 10px;
-}
-
-#redes a {
-    
-    padding-right: 10px;
-}
-
-ul li {
-    list-style-type: none;
-    text-decoration: none;
-    color: #000000;
-    margin-top: 10px;
-}

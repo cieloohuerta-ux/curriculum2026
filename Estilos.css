@@ -45,8 +45,31 @@ p {
 
 
 #inicio {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+    padding: 40px;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#inicio h1 {
+
+    padding: 45px;
+    margin-top: 10px;
+    background-color: #ecb3db;
+    border-radius: 90px;
+
+
+    color: #ee8732;
+}
+
+#inicio img {
+    border-radius: 50%;
+    border: 3px solid #e7a6d4;
+    margin: 40px 40px;
 }
 
 #perfil {
@@ -70,7 +93,7 @@ p {
     line-height: 1.5rem;
 }
 
-    
+
 nav {
     font-family: "Orbitron", sans-serif;
     display: flex;
@@ -80,7 +103,8 @@ nav {
 
 footer {
     background-color: #e7a6d4;
-    padding: 20px;
+    padding: 30px;
+    margin-top: 20px;
 }
 
 .flex-container {
@@ -94,31 +118,31 @@ footer {
 
 
 .flex-item-1 {
-  flex: 0 0 100%;
-  text-align: center; 
-  padding-bottom: 50px;
+    flex: 0 0 100%;
+    text-align: center;
+    padding-bottom: 50px;
 
-  border: 3px solid #e7a6d4;
+    border: 3px solid #e7a6d4;
 }
 
 .flex-item-2,
 .flex-item-3,
 .flex-item-4 {
-  flex: 1; 
-  min-width: 200px; 
-  line-height: 25px;
-  border: 3px solid #e7a6d4;
-  list-style-position: inside;
-  padding: 10px;
-  margin-bottom: 50px;
+    flex: 1;
+    min-width: 20px;
+    line-height: 25px;
+    border: 3px solid #e7a6d4;
+    list-style: inside;
+    padding: 10px;
+    margin-bottom: 50px;
 }
 
 
-.flex-item-2{
+.flex-item-2 {
     margin-left: 20px;
 }
 
-.flex-item-4{
+.flex-item-4 {
     margin-right: 20px;
 }
 
@@ -126,4 +150,50 @@ footer {
     font-size: 2rem;
     line-height: 3rem;
     margin-bottom: 15px;
+}
+
+.flex-item-5 {
+    flex: 0 0 100%;
+    text-align: center;
+    padding-bottom: 70px;
+}
+.flex-item-5 h2 {
+    font-size: 2rem;
+    line-height: 3rem;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+.flex-item-5 img {
+    margin: 20px;
+
+}
+.flex-item-5 a {
+    display: block;
+    font-size: 1.4rem;
+    color: #ee8732;
+    margin-bottom: 5px;
+}
+
+.flex-item-5 p {
+    margin-top: 20px;
+    color: #000000;
+}
+.flex-item-6 {
+    flex: 0 0 100%;
+    text-align: center;
+    padding-bottom: 40px;
+    border-color: #e7a6d4;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 90px;
+    background-image: url(img/img-fondo-2.jpg);
+}
+.flex-item-6 h2 {
+    font-size: 2rem;
+    line-height: 3rem;
+    margin-bottom: 10px;
+}
+.flex-item-6 p {
+
+    margin-bottom: 10px;
 }

@@ -61,8 +61,6 @@ p {
     margin-top: 10px;
     background-color: #ecb3db;
     border-radius: 90px;
-
-
     color: #ee8732;
 }
 
@@ -115,8 +113,6 @@ footer {
     gap: 20px;
 }
 
-
-
 .flex-item-1 {
     flex: 0 0 100%;
     text-align: center;
@@ -157,16 +153,19 @@ footer {
     text-align: center;
     padding-bottom: 70px;
 }
+
 .flex-item-5 h2 {
     font-size: 2rem;
     line-height: 3rem;
     margin-bottom: 40px;
     margin-top: 20px;
 }
+
 .flex-item-5 img {
     margin: 20px;
 
 }
+
 .flex-item-5 a {
     display: block;
     font-size: 1.4rem;
@@ -178,6 +177,7 @@ footer {
     margin-top: 20px;
     color: #000000;
 }
+
 .flex-item-6 {
     flex: 0 0 100%;
     text-align: center;
@@ -188,12 +188,13 @@ footer {
     border-radius: 90px;
     background-image: url(img/img-fondo-2.jpg);
 }
+
 .flex-item-6 h2 {
     font-size: 2rem;
     line-height: 3rem;
     margin-bottom: 10px;
 }
-.flex-item-6 p {
 
+.flex-item-6 p {
     margin-bottom: 10px;
 }

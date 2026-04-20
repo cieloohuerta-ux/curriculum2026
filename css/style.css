@@ -3,7 +3,6 @@
 
 * {
     font-family: "Lora", serif;
-    font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
     margin: 0%;
@@ -83,22 +82,6 @@ h3 {
     border-style: double;
 }
 
-nav {
-    font-family: "Orbitron", sans-serif;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-
-footer {
-    background-color: #e7a6d4;
-    padding: 30px;
-    margin-top: 20px;
-}
-footer p{
-    text-align: center;
-}
-
 .flex-container {
     display: flex;
     flex-wrap: wrap;
@@ -112,25 +95,23 @@ footer p{
     border: 3px solid #e7a6d4;
 }
 
-.flex-item-2,
-.flex-item-3,
-.flex-item-4  {
+
+.flex-item-x{
     flex: 1;
     line-height: 25px;
     border: 3px solid #e7a6d4;
     margin-bottom: 50px;
-    
 }
+
+.flex-item-x ul{
+    list-style-position: inside;
+}
+
 .flex-item-1 ul {
     list-style: none;
     padding-left: 0;
 }
 
-.flex-item-2 ul,
-.flex-item-3 ul,
-.flex-item-4 ul {
-    list-style-position: inside;
-}
 
 .flex-item-1 h2 {
     font-size: 2rem;
@@ -138,37 +119,37 @@ footer p{
     margin-bottom: 15px;
 }
 
-.flex-item-5 {
+.flex-item-2 {
     flex: 0 0 100%;
     text-align: center;
     padding-bottom: 70px;
 }
 
-.flex-item-5 h2 {
+.flex-item-2 h2 {
     font-size: 2rem;
     line-height: 3rem;
     margin-bottom: 40px;
     margin-top: 20px;
 }
 
-.flex-item-5 img {
+.flex-item-2 img {
     margin: 40px;
 
 }
 
-.flex-item-5 a {
+.flex-item-2 a {
     display: block;
     font-size: 1.4rem;
     color: #ee8732;
     margin-bottom: 5px;
 }
 
-.flex-item-5 p {
+.flex-item-2 p {
     margin-top: 20px;
     color: #000000;
 }
 
-.flex-item-6 {
+.flex-container-3 {
     text-align: center;
     padding-bottom: 40px;
     border-color: #e7a6d4;
@@ -178,14 +159,37 @@ footer p{
     background-image: url(../img/img-fondo-2.jpg);
 }
 
-.flex-item-6 h2 {
+.flex-container-3 h2 {
     font-size: 2rem;
     line-height: 3rem;
     margin-bottom: 10px;
 }
 
-.flex-item-6 p {
+.flex-container-3 p {
     margin-bottom: 10px;
 }
 
-/*test
+footer {
+    background-color: #e7a6d4;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+footer p {
+    text-align: center;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.red {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
+    color: black;
+    padding-inline: 10px;
+}
